@@ -19,3 +19,19 @@ gh repo list BBVGermany --limit 4000 | while read -r repo _; do   gh repo clone 
 to clone all repos in this orga. Default limit would be 30.
 
 to use this you need the gh client with a verificated acc.
+
+
+Use as pull for all:
+```
+gh repo list BBVGermany --limit 4000 | while read -r repo _; do
+  repo_name=$(basename "$repo")
+  if [ -d "$repo_name" ]; then
+    echo "Updating $repo_name..."
+    (cd "$repo_name" && git pull)
+  else
+    echo "Cloning $repo_name..."
+    gh repo clone "$repo"
+  fi
+done
+
+```
