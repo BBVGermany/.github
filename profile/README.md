@@ -64,7 +64,7 @@ On Plan:
 2. **CI/CD** 🚀
    - **GitHub Actions**: Automates testing and deployment pipelines.
 
-4. **Cloud Infrastructure* ☁️
+4. **Cloud Infrastructure** ☁️
    - **Why**: We utilize cloud infrastructure for best user expierience
 
 ---
