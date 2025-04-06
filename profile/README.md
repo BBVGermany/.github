@@ -131,9 +131,3 @@ To choose:
 ## **Conclusion** 🎉
 
 This stack powers our internal tools, public-facing websites, and client applications. We continuously evaluate and adopt new technologies to improve performance, scalability, and developer experience.
-
-For further details or questions, please feel free to contact us
-
----
-
-This **tech stack** provides a foundation for understanding the technologies driving **[Organization Name]** and how they interact with each other.
